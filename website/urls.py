@@ -23,6 +23,7 @@ urlpatterns = [
     path('edit_cie/<int:pk>/', views.edit_cie_view, name='edit_cie'),  # Add this for editing rows
     path('delete_cie/<int:pk>/', views.delete_cie_view, name='delete_cie'),
     path('download-program-details/', views.generate_docx, name='generate_docx'),
+    
 ]
 
 

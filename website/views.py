@@ -12,7 +12,6 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from docx import Document
 from django.template.loader import render_to_string
-from docx.oxml import OxmlElement
 from django.contrib.auth.hashers import make_password
 
 

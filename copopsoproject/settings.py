@@ -127,5 +127,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField' 
-# For production, specify where static files will be collected (by `collectstatic`)STATIC_ROOT = BASE_DIR / "staticfiles" 
-
+# For production, specify where static files will be collected (by collectstatic)STATIC_ROOT = BASE_DIR / "staticfiles"
